@@ -1,0 +1,8 @@
+public class Main {
+    public static void main(String[] args) {
+        // Initialize the game, create players, and start the game loop
+        Game game = new Game();
+        game.initialize();
+        game.play();
+    }
+}
