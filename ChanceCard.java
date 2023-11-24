@@ -1,5 +1,11 @@
-public class ChanceCard {
-    private String description;
+public class ChanceCard 
+    public void play(Game game)
+    {
+        game.getGui().displayChanceCard(this.description);
 
-    // Methods to apply the card's effect
-}
+        this.action.run(game);
+    }
+
+
+   
+  
